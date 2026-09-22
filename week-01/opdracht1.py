@@ -1,17 +1,17 @@
 # Oefening 1
 # Print de volgende zin "Hello World"
 
-print()
+print("Hello World")
 
 
 # Oefening 2
 # Verander de waarde van de onderstaande variabelen.
 # Print deze daarna 1 voor 1 uit
 
-naam = ""
-leeftijd = 0
-woonstad = ""
-
+naam = "Ahmad Tawhid"
+leeftijd = 17
+woonstad = "utrecht"
+print (naam,leeftijd,woonstad)
 
 # Oefening 3
 # Gebruik nu bovenstaande variabelen om zinnen te bouwen
@@ -24,6 +24,12 @@ woonstad = ""
 # Print deze daarna in zinnen uit, bijvoorbeeld "Mijn favoriete game is Minecraft" "Ik heb deze game 150 uur gespeeld", "Ik geef deze game een 8.5"
 
 
+aantal1=86
+aantal2=30
+
+print("mijn lievelingsspel is fifa")
+print(f"ik heb deze game {aantal1} uur gespeeld")
+print(f"ik geef het een {aantal2}")
 
 # Oefening 5
 # Maak twee variabelen aan, number1 en number2
@@ -37,7 +43,7 @@ woonstad = ""
 # Print deze vervolgens uit
 # Zorg er daarna voor dat je character 20 damage neemt, print nu de nieuwe waarde van zijn health uit
 
-
+print (f"{som}, {verschil}, {product}")
 
 # Oefening 7
 # Ga verder met je character van de vorige oefening. Voeg nu een nieuw variabel "weapon" toe.
